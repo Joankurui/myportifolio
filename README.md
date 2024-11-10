@@ -1,1 +1,1 @@
-This is mty portifolio website to showcase my experience and projects
+This is my portifolio website to showcase my experience and projects
