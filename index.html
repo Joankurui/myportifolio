@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joan Jebiwot Kurui | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Joan Jebiwot Kurui</h1>
+    <p>Full Stack Web Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <!-- Add your passport photo here -->
+    <img src="passport.jpg" alt="Joan Kurui" class="passport-photo" />
+    <p>I'm a Full Stack Web Developer based in Nairobi, Kenya, experienced in frontend and backend development using Python, Node.js, React, PHP, and more. I have a passion for solving problems and designing seamless user experiences.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript, React.js, Vue.js, Tailwind CSS, Bootstrap, SASS, Figma</li>
+      <li><strong>Backend:</strong> Node.js, Express.js, Django, RESTful APIs, GraphQL, MongoDB, MySQL, PostgreSQL, JWT, OAuth</li>
+      <li><strong>DevOps & Tools:</strong> Git, GitHub, CI/CD, Docker, Firebase, AWS</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Siritalk – Student Mental Healthcare Application</h3>
+      <p>Full-Stack Web Application designed to support student mental health.</p>
+      <a href="https://github.com/Joankurui" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>E-commerce Site for Secondhand Items</h3>
+      <p>Developed a fully functional secondhand e-commerce platform.</p>
+      <a href="https://github.com/Joankurui" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <ul>
+      <li><strong>Steve Cyber-Networks:</strong> Web Designer & Cyber Operator (Oct–Dec 2024)</li>
+      <li><strong>Jose Phone and Electronics Repair:</strong> Technician (Apr–Jul 2024)</li>
+      <li><strong>County Government of Elgeyo Marakwet:</strong> Network Technician Intern (May–Jul 2023)</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education journey</h2>
+    <ul>
+      <li><strong>Jaramogi Oginga Odinga University of Science and Technology</strong> Bachelor of Science in Businesss Information Systems (2019 - 2024)</li>
+      <li><strong>Singore Girls Secondary School</strong> KCSE (2015 - 2018)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:joanjebiwott99@gmail.com">joanjebiwott99@gmail.com</a></p>
+    <p>Location: Nairobi, Kenya</p>
+    <p>Phone: +254790732484</p>
+  </section>
+  <!-- Trigger Button -->
+<button class="contact-btn" onclick="openContactForm()">Contact Me</button>
+
+<!-- Popup Form -->
+<div id="contactPopup" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closeContactForm()">&times;</span>
+    <h3>Contact Me</h3>
+    <form action="mailto:joanjebiwott99@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required><br>
+      <input type="email" name="email" placeholder="Your Email" required><br>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+
+
+  <footer>
+    <p>&copy; 2025 Joan Jebiwot Kurui</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
